@@ -22,20 +22,25 @@ header{
 
 }
 /* --------- navigation ------------ */
-
-nav ul {
+ul {
     margin: 2px;
     padding: 5px;
     list-style-type: none;
     align-items: start;
 
+
 }
-nav li{
+.mainMenu li{
     list-style: none;
     padding: 5px;
     text-align: center;
     float: left;
 
+
+}
+.mainMenu li{
+    font-weight: bold;
+    font-size: 30px;
 }
 .mainLogo{
     text-align: left;
@@ -53,8 +58,6 @@ nav h2{
 a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    font-size: 30px;
 }
 a:hover{
     color: #FEFDFC;
@@ -101,12 +104,14 @@ hgroup{
 /* --------- resume section ------------ */
 
 #resume{
-    background-color:  #9CA89C;
-    color: #FEFDFC;
-    padding: 50px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
 
 }
 hgroup{
+    text-align: center;
+    padding-bottom: 30px;
+}
+hgroup h2{
     padding-bottom: 20px;
 }
 .resumeImg{
@@ -118,11 +123,46 @@ hgroup{
 
 #contact{
     background-image: url("contactBackground.png");
-    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 0px 50px 300px 50px;
+    font-size: 15px;
+
+}
+.socialMedia{
+    float: left;
+    padding: 50px 0px 50px 0px;
+
+}
+.socialMedia li{
+    float: left;
+}
+form{
+    float: right;
+    padding: 10px 0px 100px 0px;
 
 }
 /* --------- footer ------------ */
 
 footer{
     background-color: #DFCDD4;
+    padding: 10px 0px 45px 0px;
+    list-style: none;
+    
+}
+
+.footerLogo{
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    
+}
+.footerMenu li{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    
+}
+.footerMenu{
+    float: right;
+
 }

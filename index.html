@@ -50,17 +50,18 @@
 			<hgroup>
 					<h2>Resume</h2>
 					<p>
-					As an eager Arizona State graduate, I am ambitious to use my new knowledge and certifications to prove my strong adaptability in any environment. Including problem-solving and achieving the most accessible websites with any project or team.</p>
+					As an eager Arizona State graduate, I am ready to use my new knowledge and certifications to prove my strong adaptability in any environment. Including problem-solving and achieving the most accessible websites with any project or team.</p>
 			
 				</hgroup>
 				<div class="resumeImg">
 					<img src="CassandraHirataResume2022.png">
 				</div>
 		</section>
-		<section>
-			<h2>Cassandra Hirata</h2>
-			<a href="tel:541-490-2638">541-490-2638</a>
-			<a href="mailto:cassandrahirata@gmail.com">cassandrahirata@gmail.com</a>
+		<section id="contact">
+            <hgroup class="socialMedia">
+			<h2><i>Cassandra Hirata</i></h2>
+            <p><i><a href="tel:541-490-2638">541-490-2638</a></i></p>
+			<p><i><a href="mailto:cassandrahirata@gmail.com">cassandrahirata@gmail.com</a></i></p>
 			<ul>
 				<li>
 					<a href="linkedIn">Linked In</a>
@@ -72,38 +73,49 @@
 					<a href="vimeo">Vimeo</a>
 				</li>
 			</ul>
+            </hgroup>
 			<form>
-				<p>Full Name<span class="required">*</span>
-					<input type="text" name="fulllName" size="25" maxlength="100"  placeholder="First and Last" required>
-				</p>
-					<p>Email<span class="required">*</span>
-						<input type="email" name="email" size="30" maxlength="100"required>
-				</p>
-				<p>Phone<span class="required">*</span>
-					<input type="tel" name="phone" size = 30 placeholder="xxx-xxx-xxxx" required>
-				</p>
-				<fieldset>
-				<legend><p>Preferred Contact Method<span class="required">*</span></p></legend>
-				<p>
-					<label for="tel">Phone</label>
-					<input type="radio" name="contact" value="phone"> 
-					<label for="email">Email</label>
-					<input type="radio" name="contact" value="email"> 
-				</p>
-				</fieldset>
-				<p>Message<span class="required">*</span>
-					<textarea name="message"></textarea>
-					<input type="submit" name="submit" value="Submit">
-				</p>
+                <fieldset>
+                    <legend>Contact Me!</legend>
+                    <p>Full Name<span class="required">*</span>
+                        <input type="text" name="fulllName" size="25" maxlength="100"  placeholder="First and Last" required>
+                    </p>
+                        <p>Email<span class="required">*</span>
+                            <input type="email" name="email" size="30" maxlength="100"required>
+                    </p>
+                    <p>Phone<span class="required">*</span>
+                        <input type="tel" name="phone" size = 30 placeholder="xxx-xxx-xxxx" required>
+                    </p>
+                    <fieldset>
+                    <legend><p>Preferred Contact Method<span class="required">*</span></p></legend>
+                    <p>
+                        <label for="tel">Phone</label>
+                        <input type="radio" name="contact" value="phone"> 
+                        <label for="email">Email</label>
+                        <input type="radio" name="contact" value="email"> 
+                    </p>
+                    </fieldset>
+                    <p>Message<span class="required">*</span>
+                        <textarea name="message"></textarea>
+                        <input type="submit" name="submit" value="Submit">
+                    </p>
+                </fieldset>
 			</form>
 
 		</section>
 		<footer>
-			logo
 			<nav>
-				
+				<h2>Footer Navigation</h2>
+				<div class="footerLogo">
+					<li><a href="#" id="logoHome"><img src="black - logo.png" alt="CH logo" width="75" height="75"></a></li>
+				</div>
+				<div class="footerMenu">
+					<li><a href="#about">About</a></li>
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</div>
 			</nav>
-			Copyright &copy; 2023 Cassandra Hirata
+			<small>Copyright &copy; 2023 Cassandra Hirata</small>
 		</footer>
 	</body>
 </html>
