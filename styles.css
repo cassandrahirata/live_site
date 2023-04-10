@@ -45,6 +45,8 @@ ul {
 .mainLogo{
     text-align: left;
     float: left;
+    list-style: none;
+
 
 }
 .mainMenu{
