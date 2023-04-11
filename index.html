@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -18,10 +18,12 @@
 		<header>
 			<nav class="mainNav">
 				<h2>Main Navigation</h2>
-					<li class="logoItem"><a href="#" id="logoHome"><img src="black - logo.png" alt="CH logo" width="75" height="75"></a></li>
-					<li class="aboutItem"><a href="#about">About</a></li>
-					<li class="resumeItem"><a href="#resume">Resume</a></li>
-					<li class="contactItem"><a href="#contact">Contact</a></li>
+					<li><a href="#" id="logoHome"><img src="blackLogo.png" alt="CH logo" width="75" height="75"></a></li>
+                    <menu>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </menu>
 			</nav>
 			<div class="author">
 				<h1>Cassandra H. Hirata</h1>
@@ -32,20 +34,19 @@
 			<hgroup>
 				<h2>About Me</h2>
 				<p>
-					<div class="profileImg">
-						<img src="portfolio image.jpg" alt="Cassandra Hirata holding a flower" width="250" height="300">
-					</div>
-					Hello, my name is Cassandra Haruko Hirata, over the last 5 years I have adapted as a full-time shift supervisor at Starbucks as well as a full time student at Arizona State University online. I am now readily awaiting the knowledge that awaits me after graduation. Along with studying and coding, I continue to practice speaking Japanese. Throughout this process I have used my patience and insight to be a reliable lead and successful student.
-				</p>
+                     <img src="portfolio image.jpg" alt="Cassandra Hirata holding a flower" width="250" height="300" class="profileImg">
+                 </p>
+
+                <p>Hello, my name is Cassandra Haruko Hirata, over the last 5 years I have adapted as a full-time shift supervisor at Starbucks as well as a full time student at Arizona State University online. I am now readily awaiting the knowledge that awaits me after graduation. Along with studying and coding, I continue to practice speaking Japanese. Throughout this process I have used my patience and insight to be a reliable lead and successful student.</p>
 			</hgroup>
         <section>
-            <aside class="PrevProjects">
+            <aside>
                 <h3>Previous Projects</h3>
-                <button><a href="previousProjects.html">Click Here!</a></button>
+                <a href="previousProjects.html" class="button">Click Here!</a>
             </aside>
-            <aside class="contactButton">
+            <aside>
                 <h3>Contact Me!</h3>
-                <button><a href="#contact">Click Here!</a></button>
+                <a href="#contact" class="button">Click Here!</a>
             </aside>
 		</section>
         </section>
@@ -62,18 +63,37 @@
 		</section>
 		<section id="contact">
             <hgroup class="socialMedia">
-			<h2><i>Cassandra Hirata</i></h2>
+			<h2><i>Cassandra H. Hirata</i></h2>
             <p><i><a href="tel:541-490-2638">541-490-2638</a></i></p>
 			<p><i><a href="mailto:cassandrahirata@gmail.com">cassandrahirata@gmail.com</a></i></p>
 			<ul>
 				<li>
-					<a href="linkedIn">Linked In</a>
+                    <h2>LinkedIn</h2>
+					<a href="linkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <line x1="8" y1="11" x2="8" y2="16" />
+                        <line x1="8" y1="8" x2="8" y2="8.01" />
+                        <line x1="12" y1="16" x2="12" y2="11" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                      </svg></a>
 				</li>
 				<li>
-					<a href="behance">Behance</a>
+                    <h2>Behance</h2>
+					<a href="behance"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-behance" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18v-12h4.5a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-4.5" />
+                        <line x1="3" y1="12" x2="7.5" y2="12" />
+                        <path d="M14 13h7a3.5 3.5 0 0 0 -7 0v2a3.5 3.5 0 0 0 6.64 1" />
+                        <line x1="16" y1="6" x2="19" y2="6" />
+                      </svg></a>
 				</li>
 				<li>
-					<a href="vimeo">Vimeo</a>
+                    <h2>Vimeo</h2>
+					<a href="vimeo"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-vimeo" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 8.5l1 1s1.5 -1.102 2 -.5c.509 .609 1.863 7.65 2.5 9c.556 1.184 1.978 2.89 4 1.5c2 -1.5 7.5 -5.5 8.5 -11.5c.444 -2.661 -1 -4 -2.5 -4c-2 0 -4.047 1.202 -4.5 4c2.05 -1.254 2.551 1.003 1.5 3c-1.052 2.005 -2 3 -2.5 3c-.49 0 -.924 -1.165 -1.5 -3.5c-.59 -2.42 -.5 -6.5 -3 -6.5s-5.5 4.5 -5.5 4.5z" />
+                      </svg></a>
 				</li>
 			</ul>
             </hgroup>
@@ -84,7 +104,7 @@
                         <input type="text" name="fulllName" size="25" maxlength="100"  placeholder="First and Last" required>
                     </p>
                         <p>Email<span class="required">*</span>
-                            <input type="email" name="email" size="30" maxlength="100"required>
+                            <input type="email" name="email" size="30" maxlength="100" placeholder="email@example.com" required>
                     </p>
                     <p>Phone<span class="required">*</span>
                         <input type="tel" name="phone" size = 30 placeholder="xxx-xxx-xxxx" required>
@@ -100,7 +120,7 @@
                     </p>
                     </fieldset>
                     <p>Message<span class="required">*</span>
-                        <textarea name="message" rows="4" rows="5"></textarea>
+                        <textarea name="message" rows="6" rows="8"></textarea>
                         <input type="submit" name="submit" value="Submit">
                     </p>
                 </fieldset>
@@ -108,16 +128,14 @@
 
 		</section>
 		<footer>
-			<nav>
+			<nav class="footerNav">
 				<h2>Footer Navigation</h2>
-				<div class="footerLogo">
-					<li><a href="#" id="logoHome"><img src="black - logo.png" alt="CH logo" width="75" height="75"></a></li>
-				</div>
-				<div class="footerMenu">
-					<li><a href="#about">About</a></li>
-					<li><a href="#resume">Resume</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</div>
+					<li class="logoFooter"><a href="#"><img src="blackLogo.png" alt="CH logo" width="75" height="75"></a></li>
+                    <menu>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </menu>
 			</nav>
 			<small>Copyright &copy; 2023 Cassandra Hirata</small>
 		</footer>
