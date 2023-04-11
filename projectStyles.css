@@ -21,7 +21,6 @@ header{
 }
 /* --------- navigation ------------ */
 .navMenu{
-	display: inline-block;
 	position: relative;
 }
 button{
@@ -31,6 +30,7 @@ button{
 	padding: 15px 30px;
 	font-size: 18px;
 	cursor: pointer;
+    float: right;
 }
 button:hover{
 	background-color: #FEFDFC;
@@ -42,7 +42,7 @@ nav h2{
 }
 .navItems{
 	display: none;
-	position: absolute;
+	position:relative;
 	overflow: auto;
 	background-color: #DFCDD4;
 	border-radius: 5px;
@@ -88,9 +88,22 @@ article a{
 article a:hover{
     border: 1px solid #444e6b;
 }
-img{
-    width: 100%;
+.switch img{
     height: auto;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+}
+.switch .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.switch:hover .img-top {
+    display: inline;
 }
 figcaption{
     padding: 15px;
