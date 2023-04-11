@@ -33,18 +33,19 @@ li{
     list-style: none;
 
 }
-nav li.listItem{
+.mainNav li img{
+    text-align: left;
+    float: left;
+
+}
+.mainNav li a{
     list-style: none;
     padding: 5px;
     float: right;    
     font-weight: bold;
     font-size: 30px;
 }
-nav li img{
-    text-align: left;
-    float: left;
 
-}
 
 .mainMenu menu a{
     float: right;
@@ -135,6 +136,14 @@ aside h3{
     padding: 0px 50px 50px 50px;
 
 }
+#resume img{
+    padding: 10px 0px 10px 0px;
+}
+#resume a{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #9CA89C;
+}
 hgroup{
     text-align: center;
     padding-bottom: 30px;
@@ -169,26 +178,45 @@ form{
     padding: 10px 0px 100px 0px;
 }
 form p, input{
-    padding: 20px 10px 20px 10px;
+    padding: 25px 10px 10px 25px;
+}
+input[type=submit]{
+    float: right;
+    background-color: #9CA89C;
+    font-size: 15px;
+    padding: 10px;
+}
+label{
+    padding: 0px 0px 0px 25px;
 }
 /* --------- footer ------------ */
 
 footer{
     background-color: #DFCDD4;
-    padding: 10px 0px 45px 0px;
+    padding: 75px;
     list-style: none;
     
 }
 small{
     float: right;
 }
-.logoFooter{
-    text-align: center;
-    padding: 10px 0px 20px 0px;
-    
+footer a{
+    paddding: 10px;
 }
-menu li{
-    font-size: 0px;
+footer a img{
+    padding: 0px 0px 0px 135px;
+}
+footer a:hover{
+    padding: 0px 0px 0px 135px;
+
+}
+#footerLogo:hover{
+    background-color: #FEFDFC;
+    border-radius: 50%;
+    padding: 10px;
+}
+.footerNav menu li{
+    font-size: 20px;
     padding: 5px;
     text-align: center;
     float: left;
