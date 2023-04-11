@@ -16,16 +16,12 @@
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="mainNav">
 				<h2>Main Navigation</h2>
-				<div class="mainLogo">
-					<li><a href="#" id="logoHome"><img src="black - logo.png" alt="CH logo" width="75" height="75"></a></li>
-				</div>
-				<div class="mainMenu">
-					<li><a href="#about">About</a></li>
-					<li><a href="#resume">Resume</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</div>
+					<li class="logoItem"><a href="#" id="logoHome"><img src="black - logo.png" alt="CH logo" width="75" height="75"></a></li>
+					<li class="aboutItem"><a href="#about">About</a></li>
+					<li class="resumeItem"><a href="#resume">Resume</a></li>
+					<li class="contactItem"><a href="#contact">Contact</a></li>
 			</nav>
 			<div class="author">
 				<h1>Cassandra H. Hirata</h1>
@@ -42,10 +38,17 @@
 					Hello, my name is Cassandra Haruko Hirata, over the last 5 years I have adapted as a full-time shift supervisor at Starbucks as well as a full time student at Arizona State University online. I am now readily awaiting the knowledge that awaits me after graduation. Along with studying and coding, I continue to practice speaking Japanese. Throughout this process I have used my patience and insight to be a reliable lead and successful student.
 				</p>
 			</hgroup>
-			<!-- Add drop down <h3>Previous Work</h3> -->
-			<!-- Add drop down <h3>Contact</h3> -->
-
+        <section>
+            <aside class="PrevProjects">
+                <h3>Previous Projects</h3>
+                <button><a href="previousProjects.html">Click Here!</a></button>
+            </aside>
+            <aside class="contactButton">
+                <h3>Contact Me!</h3>
+                <button><a href="#contact">Click Here!</a></button>
+            </aside>
 		</section>
+        </section>
 		<section id="resume">
 			<hgroup>
 					<h2>Resume</h2>
@@ -87,7 +90,8 @@
                         <input type="tel" name="phone" size = 30 placeholder="xxx-xxx-xxxx" required>
                     </p>
                     <fieldset>
-                    <legend><p>Preferred Contact Method<span class="required">*</span></p></legend>
+                    <legend><p>Preferred Contact Method<span class="required">*</span></p>
+                    </legend>
                     <p>
                         <label for="tel">Phone</label>
                         <input type="radio" name="contact" value="phone"> 
@@ -96,7 +100,7 @@
                     </p>
                     </fieldset>
                     <p>Message<span class="required">*</span>
-                        <textarea name="message"></textarea>
+                        <textarea name="message" rows="4" rows="5"></textarea>
                         <input type="submit" name="submit" value="Submit">
                     </p>
                 </fieldset>
