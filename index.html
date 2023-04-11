@@ -18,28 +18,25 @@
 		<header>
 			<nav class="mainNav">
 				<h2>Main Navigation</h2>
+                <ul>
 					<li><a href="#" id="logoHome"><img src="blackLogo.png" alt="CH logo" width="75" height="75"></a></li>
-                    <menu>
                         <li><a href="#about">About</a></li>
                         <li><a href="#resume">Resume</a></li>
                         <li><a href="#contact">Contact</a></li>
-                    </menu>
+                </ul>
 			</nav>
 			<div class="author">
 				<h1>Cassandra H. Hirata</h1>
-				<h3>-- Web Developer UX --</h3>
+				<h2>-- Web Developer UX --</h2>
 			</div>
 		</header>
 		<section id="about">
-			<hgroup>
 				<h2>About Me</h2>
 				<p>
-                     <img src="portfolio image.jpg" alt="Cassandra Hirata holding a flower" width="250" height="300" class="profileImg">
+                     <img src="portfolioImage.jpg" alt="Cassandra Hirata holding a flower" width="250" height="300" class="profileImg">
                  </p>
 
                 <p>Hello, my name is Cassandra Haruko Hirata, over the last 5 years I have adapted as a full-time shift supervisor at Starbucks as well as a full time student at Arizona State University online. I am now readily awaiting the knowledge that awaits me after graduation. Along with studying and coding, I continue to practice speaking Japanese. Throughout this process I have used my patience and insight to be a reliable lead and successful student.</p>
-			</hgroup>
-        <section>
             <aside>
                 <h3>Previous Projects</h3>
                 <a href="previousProjects.html" class="button" target="_blank">Click Here!</a>
@@ -48,22 +45,19 @@
                 <h3>Contact Me!</h3>
                 <a href="#contact" class="button">Click Here!</a>
             </aside>
-		</section>
         </section>
 		<section id="resume">
-			<hgroup>
 					<h2>Resume</h2>
 					<p>
 					As an eager Arizona State graduate, I am ready to use my new knowledge and certifications to prove my strong adaptability in any environment. Including problem-solving and achieving the most accessible websites with any project or team.</p>
 			
-				</hgroup>
 				<div class="resumeImg">
-					<img src="CassandraHirataResume2022.png">
+					<img src="CassandraHirataResume2022.png" alt="Resume, updated 2023. Download below.">
 				</div>
                 <a href="CassandraHirataResume2022.png" target="_blank" download>Click here to download! &#129299;</a>
 		</section>
 		<section id="contact">
-            <hgroup class="socialMedia">
+            <div class="socialMedia">
 			<h2><i>Cassandra H. Hirata</i></h2>
             <p><i><a href="tel:541-490-2638">541-490-2638</a></i></p>
 			<p><i><a href="mailto:cassandrahirata@gmail.com">cassandrahirata@gmail.com</a></i></p>
@@ -97,29 +91,27 @@
                       </svg></a>
 				</li>
 			</ul>
-            </hgroup>
+            </div>
 			<form>
                 <fieldset>
-                    <legend>Contact Me!</legend>
-                    <p>Full Name<span class="required">*</span>
-                    </p>
-                    <input type="text" name="fulllName" size="25" maxlength="100"  placeholder="First and Last" required>
-                    <p>Email<span class="required">*</span>
-                    </p>
-                    <input type="email" name="email" size="30" maxlength="100" placeholder="email@example.com" required>
-                    <p>Phone<span class="required">*</span></p>
-                    <input type="tel" name="phone" size = 30 placeholder="xxx-xxx-xxxx" required>
+                    <legend>Contact Me!</legend><br>
+                    Full Name<span class="required">*</span><br>
+                    <input type="text" name="fulllName" size="25" maxlength="100"  placeholder="First and Last" required><br>
+                    Email<span class="required">*</span><br>
+                    <input type="email" name="email" size="30" maxlength="100" placeholder="email@example.com" required><br>
+                    Phone<span class="required">*</span><br>
+                    <input type="tel" name="phone" size = 30 placeholder="xxx-xxx-xxxx" required><br>
                     <fieldset>
-                    <legend><p>Preferred Contact Method<span class="required">*</span></p>
+                    <legend>Preferred Contact Method<span class="required">*</span>
                     </legend>
                         <label for="tel">Phone</label>
                         <input type="radio" name="contact" value="phone"> 
                         <label for="email">Email</label>
                         <input type="radio" name="contact" value="email"> 
                     </fieldset>
-                    <p>Message<span class="required">*</span>
-                        <textarea name="message" rows="6" rows="8"></textarea>
-                    </p>
+                    <br>
+                        Message
+                        <textarea name="message" rows="6" cols="40"></textarea>
                     <input type="submit" name="submit" value="Submit">
                 </fieldset>
 			</form>
@@ -128,13 +120,14 @@
 		<footer>
 			<nav class="footerNav">
 				<h2>Footer Navigation</h2>
-					
-                    <menu>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </menu>
-                    <li><a href="#"><img src="blackLogo.png" alt="CH logo" width="75" height="75" id="footerLogo"></a></li>
+				<ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">
+                        <img src="blackLogo.png" alt="CH logo / home button" width="75" height="75" id="footerLogo">
+                    </a></li>
+                </ul>
 			</nav>
 			<small>Copyright &copy; 2023 Cassandra Hirata</small>
 		</footer>
