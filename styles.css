@@ -5,12 +5,13 @@
 - blue: #444E6B
 - green: #9CA89C
  */
- *{
-    font-family: Optima, sans-serif;
+html{
     margin: 0;
 }
-
 body, footer{
+    background-color: #DFCDD4;
+
+    font-family: Optima, sans-serif;
     margin: 0;
 
 }
@@ -25,9 +26,6 @@ header{
 ul {
     margin: 2px;
     padding: 5px;
-    text-decoration: none;
-    list-style-type: none;
-    align-items: start;
 
 }
 li{
@@ -66,7 +64,7 @@ a{
 a:hover{
     color: #FEFDFC;
 }
-#logoHome img{
+#logoHome{
     float: left;
 }
 #logoHome:hover{
@@ -131,6 +129,7 @@ aside h3{
 /* --------- resume section ------------ */
 
 #resume{
+    background-color: #9CA89C;
     padding: 0px 50px 50px 50px;
 
 }
@@ -193,9 +192,7 @@ label{
 }
 /* --------- footer ------------ */
 
-footer{
-    background-color: #DFCDD4;
-    padding: 75px;
+#footer{
     list-style: none;
     
 }
@@ -208,17 +205,21 @@ small{
     float: left;    
     font-size: 15px;
 }
+
 footer a{
     padding: 10px;
 }
-footer li img{
-    padding: 0px 0px 0px 135px;
+footer a img{
+    padding: 10px 10px 10px 20px;
 }
-
-#footerLogo img:hover{
+footer a img:hover{
     background-color: #FEFDFC;
     border-radius: 50%;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
+}
+
+footer img{
+    margin: 10px;
 }
 .footerNav menu li{
     font-size: 20px;
