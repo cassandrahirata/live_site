@@ -84,6 +84,7 @@ a:hover{
 .author h2{
     background-image: url("contactBackground.png");
     background-size:contain;
+    background-color: #DFCDD4;
     font-family: "park-lane", Georgia, serif;
     font-weight: 300;
     font-style: normal;
@@ -94,7 +95,7 @@ h1{
     background-image: url("contactBackground.png");
     background-size:contain;
     margin: 0;
-    background-color: #444E6B;
+    background-color: #DFCDD4;
     font-family: "park-lane", Georgia, serif;
     font-weight: 700;
     font-style: normal;
