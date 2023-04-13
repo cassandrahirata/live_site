@@ -24,6 +24,7 @@ header{
 	position: relative;
 }
 button{
+    background: none;
 	color: black;
 	border: none;
 	border-radius: 5px;
@@ -33,7 +34,7 @@ button{
     float: right;
 }
 button:hover{
-	background-color: #FEFDFC;
+	background-color: #DFCDD4;
     opacity: 0.8;
 }
 nav h2{
@@ -58,18 +59,9 @@ nav h2{
 	padding: 20px 40px;
 }
 .navItems a:hover{
-	background-color: #9CA89C;
+	background-color: #FEFDFC;
 	color: black;
 	border-radius: 5px;
-}
-#logoHome{
-    float: left;
-    padding: 10px 50px 0 10px;
-}
-#logoHome:hover{
-    background-color: #DFCDD4;
-    border-radius: 50%;
-    padding: 10px;
 }
 section h1{
     visibility: hidden;
@@ -81,18 +73,18 @@ p{
 }
 h2{
     margin: 0;
+    padding: 20px 0 50px 35px;
 }
 article{
-    padding: 0 6px;
+    padding: 0 60px;
     float: left;
     width: 24.99999%;
 }
-article a{
-    border: 1px solid #DFCDD4;
-}
+
 article a:hover{
     border: 1px solid #444e6b;
 }
+/*  my first website style */
 .switch img{
     height: auto;
 }
@@ -110,13 +102,36 @@ article a:hover{
 .switch:hover .img-top {
     display: inline;
 }
+h4{
+    margin: 0;
+    padding: 75px 0 10px 0;
+}
 figcaption{
-    padding: 15px;
+    padding: 0 0 43px 0px;
     text-align: center;
+}
+
+/* Starbbies styles */
+a.projectButton{
+    background-color: #DFCDD4;
+    color: #FEFDFC;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: cursive;
+    padding: 20px;
+}
+a:link .projectButton{
+    padding: 20px;
+
 }
 @media only screen and (max-width: 700px){
     article{
         width: 49.9999%;
         margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    article{
+        width: 100%;
     }
 }
