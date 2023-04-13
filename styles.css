@@ -10,9 +10,9 @@ html{
 }
 body, footer{
     background-color: #DFCDD4;
-
-    font-family: Optima, sans-serif;
-    margin: 0;
+    font-family: "bicyclette", 'Times New Roman', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 header{
@@ -80,8 +80,17 @@ a:hover{
     align-items: baseline;
     text-align: left;
 }
+h1{
+    background-color: #444E6B;
+    font-family: "park-lane", Georgia, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "park-lane", Georgia, serif;
+    font-weight: 300;
+    font-style: normal;
     margin: 0;
     padding: 10px 50px 10px 50px;
 }
