@@ -71,6 +71,10 @@ nav h2{
     border-radius: 50%;
     padding: 10px;
 }
+section h1{
+    visibility: hidden;
+    display: none;
+}
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
